@@ -10,7 +10,20 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   plugins: [
-    '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+    [
+      '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+      {
+        theme: ["blackCat"],
+        clean: false,
+        info: 'https://github.com/lyl-888',
+        messages: {
+          welcome: '',
+          home: '心里的花，我想要带你回家',
+          theme: '好吧，希望你能喜欢我的其他小伙伴。',
+          close: '再见哦'
+        }
+      }
+    ],
     [
       'dynamic-title',
       {
@@ -29,7 +42,7 @@ export default defineUserConfig({
     docsRepo: "https://github.com/lyl-888/lyl-888.github.io",
     docsBranch: "main",
     docsDir: "docs",
-    lastUpdatedText: "",
+    lastUpdatedText: "最后更新时间",
     // series 为原 sidebar
     series: {
       "/docs/theme-reco/": [
