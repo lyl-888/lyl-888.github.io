@@ -1,6 +1,6 @@
 ---
 title: VuePress
-layout: TagIndex
+layout: Tags
 permalink: /tags/VuePress/
 ---
 

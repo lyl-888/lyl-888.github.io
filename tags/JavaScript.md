@@ -1,6 +1,6 @@
 ---
 title: JavaScript
-layout: TagIndex
+layout: Tags
 permalink: /tags/JavaScript/
 ---
 

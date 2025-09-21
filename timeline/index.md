@@ -1,6 +1,6 @@
 ---
 title: 时间线
-layout: TimelineIndex
+layout: Timeline
 permalink: /timeline/
 ---
 

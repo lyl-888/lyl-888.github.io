@@ -43,6 +43,20 @@ export default defineUserConfig({
     docsBranch: "main",
     docsDir: "docs",
     lastUpdatedText: "最后更新时间",
+    type: "blog",
+    blogConfig: {
+      category: {
+        location: 2,
+        text: "分类",
+      },
+      tag: {
+        location: 3,
+        text: "标签",
+      },
+      socialLinks: [
+        { icon: "reco-github", link: "https://github.com/lyl-888" },
+      ],
+    },
     // series 为原 sidebar
     series: {
       "/docs/theme-reco/": [

@@ -1,6 +1,6 @@
 ---
 title: React
-layout: TagIndex
+layout: Tags
 permalink: /tags/React/
 ---
 
