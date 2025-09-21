@@ -47,12 +47,8 @@ export default defineUserConfig({
     series: {
       "/docs/theme-reco/": [
         {
-          text: "学习笔记",
-          children: ["home", "theme"],
-        },
-        {
-          text: "技术文档",
-          children: ["api", "plugin"],
+          text: "VuePress主题",
+          children: ["home", "theme", "api", "plugin"],
         },
       ],
     },
@@ -60,13 +56,7 @@ export default defineUserConfig({
       { text: "首页", link: "/" },
       { text: "分类", link: "/categories/" },
       { text: "标签", link: "/tags/" },
-      {
-        text: "笔记",
-        children: [
-          { text: "学习笔记", link: "/docs/theme-reco/home" },
-          { text: "技术文档", link: "/blogs/other/guide" },
-        ],
-      },
+      { text: "时间线", link: "/timeline/" },
       { text: "关于我", link: "/about" },
     ],
     bulletin: {
