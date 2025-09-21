@@ -10,7 +10,17 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   plugins: [
-    '@vuepress-reco/vuepress-plugin-kan-ban-niang'
+    '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+    [
+      'dynamic-title',
+      {
+        showIcon: '/logo.png',
+        showText: '欢迎回来！',
+        hideIcon: '/logo.png',
+        hideText: '祝一路顺风！',
+        recoverTime: 2000,
+      },
+    ],
   ],
   theme: recoTheme({
     logo: "/logo.png",
