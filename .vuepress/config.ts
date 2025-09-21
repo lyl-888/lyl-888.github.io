@@ -9,11 +9,6 @@ export default defineUserConfig({
   base: "/",
   bundler: viteBundler(),
   // bundler: webpackBundler(),
-  markdown: {
-    extendMarkdown: (md) => {
-      md.use(require("markdown-it-disable-url-encode"));
-    },
-  },
   plugins: [
     [
       '@vuepress-reco/vuepress-plugin-kan-ban-niang',
@@ -73,8 +68,6 @@ export default defineUserConfig({
     },
     navbar: [
       { text: "首页", link: "/" },
-      { text: "分类", link: "/categories/" },
-      { text: "标签", link: "/tags/" },
       { text: "时间线", link: "/timeline/" },
       { text: "关于我", link: "/about" },
     ],
