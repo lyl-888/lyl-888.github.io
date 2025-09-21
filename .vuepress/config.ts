@@ -6,7 +6,7 @@ import { webpackBundler } from '@vuepress/bundler-webpack'
 export default defineUserConfig({
   title: "lyl's Notes",
   description: "lyl的个人笔记网站，记录学习与思考",
-  base: "/lyl-888.github.io/",
+  base: "/",
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   theme: recoTheme({
