@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "serve": "vuepress dev ."
   },
   "dependencies": {
     "vue": "^3.5.13",
