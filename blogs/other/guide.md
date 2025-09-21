@@ -7,7 +7,7 @@ tags:
   - 个人博客
 categories:
   - 技术文档
-cover: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop
+hero: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop
 ---
 
 # 个人笔记网站搭建指南

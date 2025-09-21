@@ -9,6 +9,11 @@ export default defineUserConfig({
   base: "/",
   bundler: viteBundler(),
   // bundler: webpackBundler(),
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use(require("markdown-it-disable-url-encode"));
+    },
+  },
   plugins: [
     [
       '@vuepress-reco/vuepress-plugin-kan-ban-niang',
