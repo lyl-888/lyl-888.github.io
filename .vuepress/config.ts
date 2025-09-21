@@ -17,7 +17,7 @@ export default defineUserConfig({
         clean: true,
         modelStyle: {
           right: '20px',
-          bottom: '-20px',
+          bottom: '0px',
           opacity: '0.9'
         }
       }
