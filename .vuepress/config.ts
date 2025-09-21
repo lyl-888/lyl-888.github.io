@@ -10,18 +10,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   plugins: [
-    [
-      '@vuepress-reco/vuepress-plugin-kan-ban-niang',
-      {
-        theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
-        clean: true,
-        modelStyle: {
-          right: '20px',
-          bottom: '0px',
-          opacity: '0.9'
-        }
-      }
-    ]
+    '@vuepress-reco/vuepress-plugin-kan-ban-niang'
   ],
   theme: recoTheme({
     logo: "/logo.png",
