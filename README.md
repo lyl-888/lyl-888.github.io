@@ -14,10 +14,10 @@ bannerBrand:
     - { text: 学习笔记, link: '/docs/theme-reco/home' }
     - { text: 技术文档, link: '/blogs/other/guide', type: 'plain' }
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/lyl/lylbook' }
+    - { icon: 'LogoGithub', link: 'https://github.com/lyl-888/lyl-888.github.io' }
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/lyl' }
+    - { icon: 'LogoGithub', link: 'https://github.com/lyl-888' }
 isShowTitleInHome: true
 actionText: 关于我
 actionLink: /about
@@ -25,24 +25,25 @@ actionLink: /about
 
 ## 欢迎来到我的笔记网站
 
-这里是我记录学习心得和技术总结的地方，包含以下内容：
+这里是李禹良（北京邮电大学智能科学与技术专业）记录学习心得和技术总结的地方，包含以下内容：
 
 ### 📚 学习笔记
-- 编程语言学习心得
-- 算法与数据结构
-- 系统设计思考
-- 读书笔记
+- 大模型微调与优化
+- RAG系统构建与优化
+- 多智能体系统开发
+- 深度学习与自然语言处理
 
 ### 💻 技术文档
-- 项目开发经验
-- 工具使用技巧
-- 问题解决方案
+- AI项目开发经验
+- 模型部署与调优技巧
+- 智能系统解决方案
 - 最佳实践总结
 
-### 🌟 生活感悟
-- 成长思考
-- 工作心得
-- 生活记录
+### 🌟 项目分享
+- 实习项目经验
+- 竞赛获奖项目
+- 开源项目贡献
+- 技术成长记录
 
 ## 如何使用
 

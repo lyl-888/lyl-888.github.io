@@ -13,7 +13,7 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "lyl",
     authorAvatar: "/head.png",
-    docsRepo: "https://github.com/lyl/lylbook",
+    docsRepo: "https://github.com/lyl-888/lyl-888.github.io",
     docsBranch: "main",
     docsDir: "docs",
     lastUpdatedText: "",
@@ -61,9 +61,10 @@ export default defineUserConfig({
           type: "text",
           content: `
           <ul>
-            <li>邮箱：lyl@example.com</li>
-            <li>GitHub：@lyl</li>
-            <li>微信：lyl_notes</li>
+            <li>邮箱：liyuliang040612@163.com</li>
+            <li>GitHub：@lyl-888</li>
+            <li>微信：liduoduo8</li>
+            <li>手机：13359842933</li>
           </ul>`,
           style: "font-size: 12px;",
         },
@@ -78,8 +79,8 @@ export default defineUserConfig({
           type: "text",
           content: `
           <ul>
-            <li><a href="https://github.com/lyl/lylbook">笔记源码<a/></li>
-            <li><a href="https://lyl.github.io/lylbook">在线预览<a/></li>
+            <li><a href="https://github.com/lyl-888/lyl-888.github.io">笔记源码<a/></li>
+            <li><a href="https://lyl-888.github.io">在线预览<a/></li>
           </ul>`,
           style: "font-size: 12px;",
         },
