@@ -21,7 +21,7 @@ export default defineUserConfig({
         recoverTime: 2000,
       },
     ],
-  ],
+  ] as any,
   theme: recoTheme({
     logo: "/logo.png",
     author: "lyl",
