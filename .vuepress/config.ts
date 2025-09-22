@@ -69,6 +69,7 @@ export default defineUserConfig({
     navbar: [
       { text: "首页", link: "/" },
       { text: "时间线", link: "/timeline/" },
+      { text: "NeRF论文", link: "/docs/nerf-paper" },
       { text: "关于我", link: "/about" },
     ],
     bulletin: {

@@ -45,6 +45,13 @@ actionLink: /about
 - 开源项目贡献
 - 技术成长记录
 
+## 📄 重要文档
+
+### NeRF论文阅读笔记
+<iframe src="/docs/NeRF.pdf" width="100%" height="600px" style="border: none; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></iframe>
+
+**下载链接：** [NeRF.pdf](/docs/NeRF.pdf)
+
 ## 如何使用
 
 1. 浏览不同分类的笔记
